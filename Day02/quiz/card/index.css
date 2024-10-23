@@ -1,0 +1,30 @@
+.card {
+  width: 250px;
+  height: 160px;
+  padding: 16px;
+  border: 1px solid #bdc1c8;
+  background-color: #273142;
+  border-radius: 20px;
+}
+.title {
+  color: #bdc1c8;
+}
+.price {
+  font-size: 28px;
+  color: white;
+  margin-top: 16px;
+}
+.index {
+  margin-top: 30px;
+  color: white;
+}
+.green {
+  color: #00b69b;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #00b69b;
+  border-radius: 9999px;
+}

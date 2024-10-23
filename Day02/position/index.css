@@ -1,0 +1,15 @@
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.ice {
+  /* absolute: 절대적(브라우저 위치) */
+  /* 단, 부모가 relative or fixed이면 그것을 절대기준으로
+       잡는다.
+     */
+  position: absolute;
+  right: 10px;
+}
