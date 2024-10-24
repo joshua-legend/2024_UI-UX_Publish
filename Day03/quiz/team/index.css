@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.card > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 9999px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.name {
+  font-weight: 700;
+}
+.position {
+  color: #dbdbdb;
+}
+.email {
+  color: #dbdbdb;
+}

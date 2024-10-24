@@ -1,0 +1,57 @@
+.card {
+  width: 250px;
+  height: 500px;
+  border-radius: 16px;
+  padding: 50px 20px 0px 20px;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  text-align: center;
+  color: white;
+}
+
+/* 1. block 태그를 감싸서 margin 효과 주기 */
+/* 2. img를 block태그로 바꾸기! */
+
+.card > img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 9999px;
+  margin: 0 auto;
+}
+
+.card > strong {
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  margin-top: 5px;
+}
+
+.card > p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.sns {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 100%;
+  padding: 10px 0px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.margin_plus {
+  margin-top: 30px;
+}
+
+.icons {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.icons > i {
+  margin-left: 5px;
+  cursor: pointer;
+}
