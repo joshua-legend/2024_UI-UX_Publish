@@ -1,6 +1,10 @@
 header {
   width: 100vw;
   padding: 10px 0;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
 }
 
 nav {
@@ -29,36 +33,21 @@ nav {
   font-size: 15px;
 }
 
-.links {
+.navigation > ul {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.links > li {
+.navigation > ul > li {
   padding: 12px 10px;
   border-radius: 8px;
 }
 
-.links > li:hover {
+.navigation > ul > li:hover {
   background-color: rgba(2, 32, 71, 0.05);
 }
 
-.lang > li {
-  padding: 12px 10px;
-  border-radius: 8px;
-}
-
-.lang > li:hover {
-  background-color: rgba(2, 32, 71, 0.05);
-}
-
-.lang {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.white {
+.unSelected {
   color: #b0b8c1;
 }
